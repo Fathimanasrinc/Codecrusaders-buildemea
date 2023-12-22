@@ -1,0 +1,266 @@
+body{
+
+}
+header{
+    background-color: rgb(249, 245, 241);
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.btnpr {
+    background-color: rgb(236, 230, 223);
+    border: none;
+    color: rgb(19, 15, 15);
+    padding: 14px 16px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .btnnt {
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding:14px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 100%;
+    border: none;
+  }
+  .btnmenubar {
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+   
+    
+  }
+
+  
+ 
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  .menulist{
+    width: 23;
+    height:auto;
+    border: none;
+    border-radius: 0px;
+    font-size: medium;
+    flex-flow: column;
+    
+
+    
+
+  }
+  .btnfoodmenu{
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding: 12px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 100%;
+    border: none;
+    margin-top: 4%;
+    cursor: pointer;
+    opacity: 0.8;
+    
+   
+  }
+
+.btnmenuclose{
+  background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 100%;
+    border: none;
+    align-items: center;
+    padding-left: 20px;
+    height: 20px;
+   
+   
+  }
+ 
+ 
+/* The popup form - hidden by default */
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-popup{
+  float: right;
+  display: none;
+  height: auto;
+  bottom: 0;
+  right: 15px;
+ 
+  background-color: white ;
+  padding-bottom: 2px;
+  padding-right: 20px; display: none;
+  bottom: 0;
+  right: 15px;
+ 
+  z-index: 9;
+
+overflow:auto;
+margin-top: 2px;
+align-items: center;
+
+}
+.menulistdiv{
+  height: auto;
+  bottom: 0;
+  right: 15px;
+ float: left;
+  background-color: white ;
+  padding-bottom: 2px;
+  padding-right: 20px;
+  bottom: 0;
+  right: 15px;
+
+  z-index: 9;
+
+overflow:auto;
+margin-top: 25px;
+
+
+}
+.button{
+  height: 50px;
+}
+
+.bt{
+  height: 60px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  background-color: rgb(236, 230, 223);
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  color: rgb(19, 15, 15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+} 
+
+
+.btnmenubar:hover {
+  background-color: rgb(206, 202, 198);
+}
+.btnpr:hover{
+  background-color:rgb(206, 202, 198);
+}
+.btnnt:hover{
+  background-color:rgb(206, 202, 198);
+}
+.btnmenuclose:hover{
+  background-color:rgb(206, 202, 198);
+}
+footer{
+  padding: auto;
+}
+.middlediv{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.fdmenudiv{
+
+  padding: 12px 0px;
+  width: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+  
+}
+.messio{
+  display: none;
+  height: 100px;
+  right: 15px;
+  background-color: rgba(176, 186, 190, 0.883) ;
+  padding-right: 20px;
+   display: none;
+  right: 15px;
+  z-index: 9;
+ overflow:auto;
+ align-items: center;
+ border: 5px;
+ border-radius: 20px  ;
+
+
+
+  }
+  footer{
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+  .cbt{
+    float: left;
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 50px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    background-color: rgb(236, 230, 223);
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    color: rgb(19, 15, 15);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+  
+  
+  }
+ .m-first{
+  align-items: center;
+ width: 100%;
+  font-size: small;
+ 
+ }
+  .mfi{
+   size: 12%;
+  }
+ 
