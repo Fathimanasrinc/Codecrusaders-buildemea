@@ -28,6 +28,7 @@ header{
   .btnmenubar {
     background-color: rgb(236, 230, 223);
     color: rgb(19, 15, 15);
+    margin-left: 50px   ;
     padding: 12px 16px;
     font-size: 15px;
     cursor: pointer;
@@ -43,18 +44,16 @@ header{
     background-color: red;
   }
   
-  /* Add some hover effects to buttons */
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
-  }
-  .menulist{
-    width: 23;
+
+  
+  .menulist-sun{
+    width: 100%;
     height:auto;
     border: none;
     border-radius: 0px;
     font-size: medium;
     flex-flow: column;
-    
+    float: left;
 
     
 
@@ -65,18 +64,14 @@ header{
     padding: 12px 25px;
     font-size: 15px;
     cursor: pointer;
-    margin-left: 0%;
+    float: left;
     border-radius: 100%;
     border: none;
-    margin-top: 4%;
-    cursor: pointer;
-    opacity: 0.8;
-    
-   
-  }
+    margin-top: 0%;
+    cursor: pointer;}
 
 .btnmenuclose{
-  background-color: rgb(236, 230, 223);
+    background-color: rgb(236, 230, 223);
     color: rgb(19, 15, 15);
     padding: 12px 16px;
     font-size: 15px;
@@ -84,43 +79,36 @@ header{
     margin-left: 0%;
     border-radius: 100%;
     border: none;
-    align-items: center;
-    padding-left: 20px;
+    float: right;
     height: 20px;
    
    
   }
- 
- 
-/* The popup form - hidden by default */
-
-
 .form-container .cancel {
   background-color: red;
 }
 
 .form-popup{
-  float: right;
   display: none;
   height: auto;
   bottom: 0;
   right: 15px;
- 
   background-color: white ;
-  padding-bottom: 2px;
+  padding-bottom: 4%;
   padding-right: 20px; display: none;
   bottom: 0;
   right: 15px;
- 
   z-index: 9;
-
-overflow:auto;
-margin-top: 2px;
-align-items: center;
+  overflow:auto;
+  float: right;
+  align-items: center;
+  width: 100%;
+  margin: auto;
 
 }
 .menulistdiv{
   height: auto;
+  width: 100%;
   bottom: 0;
   right: 15px;
  float: left;
@@ -129,18 +117,18 @@ align-items: center;
   padding-right: 20px;
   bottom: 0;
   right: 15px;
-
   z-index: 9;
-
 overflow:auto;
 margin-top: 25px;
-
-
+}
+.fditems{
+  width: 80px;
+  border-radius: 100%;
+  padding-left: 8px;
 }
 .button{
   height: 50px;
 }
-
 .bt{
   height: 60px;
   display: inline-block;
@@ -152,9 +140,7 @@ margin-top: 25px;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  -ms-touch-action: manipulation;
   background-color: rgb(236, 230, 223);
-  touch-action: manipulation;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -167,8 +153,10 @@ margin-top: 25px;
   display: block;
   width: 100%;
 } 
-
-
+.fitems{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
 .btnmenubar:hover {
   background-color: rgb(206, 202, 198);
 }
@@ -197,28 +185,10 @@ footer{
  
   
 }
-.messio{
-  display: none;
-  height: 100px;
-  right: 15px;
-  background-color: rgba(176, 186, 190, 0.883) ;
-  padding-right: 20px;
-   display: none;
-  right: 15px;
-  z-index: 9;
- overflow:auto;
- align-items: center;
- border: 5px;
- border-radius: 20px  ;
 
-
-
-  }
-  footer{
-   padding-left: 20px;
-   padding-right: 20px;
-  }
-
+footer{
+  padding-left: 20px;
+}
   .cbt{
     float: left;
     width: 20%;
@@ -232,14 +202,14 @@ footer{
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 8px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     -ms-touch-action: manipulation;
-    background-color: rgb(236, 230, 223);
+    background-color:  rgb(236, 230, 223);
     touch-action: manipulation;
     cursor: pointer;
     -webkit-user-select: none;
@@ -251,16 +221,25 @@ footer{
     border: 1px solid transparent;
     border-radius: 4px;
     display: block;
-  
-  
   }
  .m-first{
   align-items: center;
- width: 100%;
+  width: 100%;
   font-size: small;
- 
+  padding-left: 50px;
+  padding-right: 50px;  
  }
   .mfi{
    size: 12%;
-  }
- 
+  } 
+ .morning{
+  float: left;
+ }
+ .noon{
+  padding-left: 50px;
+  float: left;
+ }
+ .afternoon{
+  padding-left: 50px;
+  float: left;
+ }
