@@ -46,18 +46,7 @@ header{
   
 
   
-  .menulist-sun{
-    width: 100%;
-    height:auto;
-    border: none;
-    border-radius: 0px;
-    font-size: medium;
-    flex-flow: column;
-    float: left;
 
-    
-
-  }
   .btnfoodmenu{
     background-color: rgb(236, 230, 223);
     color: rgb(19, 15, 15);
@@ -91,19 +80,17 @@ header{
 .form-popup{
   display: none;
   height: auto;
-  bottom: 0;
   right: 15px;
   background-color: white ;
   padding-bottom: 4%;
-  padding-right: 20px; display: none;
-  bottom: 0;
-  right: 15px;
+  padding-right: 20px;
   z-index: 9;
   overflow:auto;
-  float: right;
+  float: left;
   align-items: center;
   width: 100%;
   margin: auto;
+  margin-top: 4%;
 
 }
 .menulistdiv{
@@ -155,7 +142,7 @@ margin-top: 25px;
 } 
 .fitems{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
+ 
 }
 .btnmenubar:hover {
   background-color: rgb(206, 202, 198);
@@ -243,3 +230,83 @@ footer{
   padding-left: 50px;
   float: left;
  }
+ .menulist-sun{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-tue{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-wed{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-thu{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-mon{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-fri{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-mon{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-sat{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}

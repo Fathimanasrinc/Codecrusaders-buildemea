@@ -1,0 +1,16 @@
+header{
+    background-color: aliceblue;
+    padding-left: 20px;
+    height: 50px;
+}
+.btn{
+    width: 49%;
+    background-color: beige;
+    color: black;
+}
+.paid{
+    display: none;
+}
+.fees-due{
+    display: none;
+}
