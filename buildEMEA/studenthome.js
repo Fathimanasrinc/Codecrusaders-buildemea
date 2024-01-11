@@ -5,10 +5,10 @@ function menu() {
 // Get the current day (0 is Sunday, 1 is Monday, ..., 6 is Saturday)
 let currentDay = currentDate.getDay();
 var day=currentDay;
-if(document.getElementById('myDiv').style.display==='none'){
-  document.getElementById('myDiv').style.display='block';
+if(document.getElementById('myDiv').style.display = "none"){
+  document.getElementById('myDiv').style.display = "block";
   if(day===0){
-    document.getElementById('sun-menu').style.display="block";
+    document.getElementById('sun-menu').style.display = "block";
   }else if(day===1){
     document.getElementById('mon-menu').style.display = "block";
   }else if(day===2){
@@ -16,17 +16,17 @@ if(document.getElementById('myDiv').style.display==='none'){
   }else if(day===3){
     document.getElementById('wed-menu').style.display = "block";
   }else if(day===4){
-    document.getElementById('thu-menu').style.display = "block";
+    console.log('hi');
+   document.getElementById("thu-menu").style.display = "block";
   }else if(day===5){
-    document.getElementById('fri-menu').style.display= "block";
+    document.getElementById('fri-menu').style.display = "block";
   }else if(day===6){
+    console.log('helo');
     document.getElementById('sat-menu').style.display = "block";
   }
- }else{
-    document.getElementById('myDiv').style.display = 'none';
-  }
-
+ }
 }
+
 
 function tick(x){
   var r = 236, g = 230, b = 223;
@@ -99,4 +99,8 @@ function tick(x){
     } }  
   return;
   }
-
+function ftick(x){
+  if(x==f){
+    
+  }
+}

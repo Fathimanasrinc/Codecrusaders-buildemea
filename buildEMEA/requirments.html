@@ -26,6 +26,7 @@
           <input type="text" id="e-rmno"><br>
           <input type="text" value="Requirments"class="list-input" >
           <div class="mt-10px ml-200px">
+            <form action="">
               <input type="checkbox" id="fan" name="need-req" value=" "onclick="ticked(1)">
               <label for="fan">Fan</label><br>
               <input type="checkbox" id="light" name="need-req" value=" "onclick="ticked(2)">
@@ -36,7 +37,8 @@
               <label for="other">Other</label><br>
               <textarea id="other-need" name="needr" rows="4" cols="50" onclick="ticked(4)" style="display: none;"></textarea>
 
-              <button type="" class="btn btn-secondary" onclick="submit()">Submit</button>
+              <button type="submit" class="btn btn-secondary" >Submit</button>
+              </form>
           </div>
         </div>
         

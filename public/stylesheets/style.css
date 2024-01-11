@@ -1,0 +1,478 @@
+header{
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  background-image: linear-gradient(to bottom, #827e7e, rgba(201, 188, 188, 0.02));
+  color: white;
+}   
+
+body, html {
+  height: 110%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("hostel.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.q{
+  font-style: italic;
+  padding-left: 100px;
+  padding-bottom: 0px;
+  margin-top: 0%;
+  font-family: monospace;
+  font-weight: bolder;
+  color: rgb(17, 16, 18);
+  float: left;
+      
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.bts{
+border-color: black;
+  border-radius: 2%;
+  border-style: inherit;
+  width: 300px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  float: left;
+  
+}
+.btn{
+margin-top: 10px;
+width: 40%;
+}
+.sign{
+padding-left: 10px;
+padding-top: 10px;
+color: rgb(255, 255, 255);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #B3B792;
+}
+
+.wrapper {
+  width: 420px;
+  background: aliceblue;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #201d1d;
+  border-radius: 12px;
+  padding: 30px 40px;
+  align-items: center;
+  display: block;
+ 
+}
+.fp{
+  padding-bottom: 10px;
+
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background:transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(26, 24, 24, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color:rgb(27, 25, 25);
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color:rgb(33, 32, 32);
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+}
+
+.wrapper .forgot-password {
+  margin: 15px 0;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: #ede4e4;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.wrapper .signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link p {
+  color: #110f0f;
+}
+
+.signup-link a {
+  color: #1b1919;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+body{
+
+}
+header{
+    background-color: rgb(249, 245, 241);
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.btnpr {
+    background-color: rgb(236, 230, 223);
+    border: none;
+    color: rgb(19, 15, 15);
+    padding: 14px 16px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .btnnt {
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding:14px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 100%;
+    border: none;
+  }
+  .btnmenubar {
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    margin-left: 50px   ;
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+   
+    
+  }
+
+  
+ 
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+
+  
+
+  .btnfoodmenu{
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding: 12px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    border-radius: 100%;
+    border: none;
+    margin-top: 0%;
+    cursor: pointer;}
+
+.btnmenuclose{
+    background-color: rgb(236, 230, 223);
+    color: rgb(19, 15, 15);
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 0%;
+    border-radius: 100%;
+    border: none;
+    float: right;
+    height: 20px;
+   
+   
+  }
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-popup{
+  display: none;
+  height: auto;
+  right: 15px;
+  background-color: white ;
+  padding-bottom: 4%;
+  padding-right: 20px;
+  z-index: 9;
+  overflow:auto;
+  float: left;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 4%;
+
+}
+.menulistdiv{
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  right: 15px;
+ float: left;
+  background-color: white ;
+  padding-bottom: 2px;
+  padding-right: 20px;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+overflow:auto;
+margin-top: 25px;
+}
+.fditems{
+  width: 80px;
+  border-radius: 100%;
+  padding-left: 8px;
+}
+.button{
+  height: 50px;
+}
+.bt{
+  height: 60px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(236, 230, 223);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  color: rgb(19, 15, 15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+} 
+.fitems{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.btnmenubar:hover {
+  background-color: rgb(206, 202, 198);
+}
+.btnpr:hover{
+  background-color:rgb(206, 202, 198);
+}
+.btnnt:hover{
+  background-color:rgb(206, 202, 198);
+}
+.btnmenuclose:hover{
+  background-color:rgb(206, 202, 198);
+}
+footer{
+  padding: auto;
+}
+.middlediv{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.fdmenudiv{
+
+  padding: 12px 0px;
+  width: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+  
+}
+
+footer{
+  padding-left: 20px;
+}
+  .cbt{
+    float: left;
+    width: 20%;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 50px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    background-color:  rgb(236, 230, 223);
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    color: rgb(19, 15, 15);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+  }
+ .m-first{
+  align-items: center;
+  width: 100%;
+  font-size: small;
+  padding-left: 50px;
+  padding-right: 50px;  
+ }
+  .mfi{
+   size: 12%;
+  } 
+ .morning{
+  float: left;
+ }
+ .noon{
+  padding-left: 50px;
+  float: left;
+ }
+ .afternoon{
+  padding-left: 50px;
+  float: left;
+ }
+ .menulist-sun{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-tue{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-wed{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-thu{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-mon{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-fri{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-mon{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
+.menulist-sat{
+  width: 100%;
+  height:auto;
+  border: none;
+  border-radius: 0px;
+  font-size: medium;
+  flex-flow: column;
+  float: left;
+  display: none;    
+}
